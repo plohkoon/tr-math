@@ -1,10 +1,9 @@
-import { type LoaderArgs } from "@remix-run/cloudflare";
-import { Mafs } from "mafs";
-import { json } from "@remix-run/cloudflare";
+import { json, type LoaderArgs } from "@remix-run/cloudflare";
 import { useLoaderData } from "@remix-run/react";
+import { Fireworks } from "fireworks/lib/react";
+import { Mafs } from "mafs";
 import { adjacencies } from "~/lib/adjacencies";
 import { useAdjacency } from "~/lib/useAdjacency";
-import { Fireworks } from "fireworks/lib/react";
 
 export function loader({ request }: LoaderArgs) {
   const params = new URL(request.url).searchParams;
