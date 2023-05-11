@@ -79,11 +79,11 @@ export default function Planar() {
       {!hasCrossings ? (
         <>
           <Fireworks
-            count={3}
+            count={5}
             interval={1000}
             calc={(props, i) => ({
               ...props,
-              x: (i + 1) * (window.innerWidth / 3) - (i + 1) * 100,
+              x: (i + 1) * (window.innerWidth / 5) - (i + 1) * 100,
               y: 200 + Math.random() * 100 - 50 + (i === 2 ? -80 : 0),
             })}
           />
