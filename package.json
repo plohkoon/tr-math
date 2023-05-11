@@ -16,6 +16,7 @@
     "@remix-run/css-bundle": "^1.16.0",
     "@remix-run/react": "^1.16.0",
     "cross-env": "^7.0.3",
+    "fireworks": "^2.2.7",
     "isbot": "^3.6.8",
     "mafs": "^0.16.0",
     "react": "^18.2.0",
