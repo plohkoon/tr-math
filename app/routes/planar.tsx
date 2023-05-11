@@ -29,6 +29,15 @@ export default function Planar() {
 
   return (
     <div className="grid grid-cols-1 place-items-center space-y-4">
+      <h1 className="text-lg">Line Crossings</h1>
+      <p className="max-w-xl px-4">
+        The goal here is simple. In the black square below there's a bunch of
+        pink dots with white lines connecting them. You as the solver can click
+        and drag on the dots to reposition them within the black square. You
+        want to try to reposition the pink dots so that none of the white lines
+        can do it. You'll know you've succeeded when a "next puzzle" button pops
+        up.
+      </p>
       <form method="get" className="space-x-4">
         <button
           type="submit"
